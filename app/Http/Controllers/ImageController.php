@@ -10,4 +10,9 @@ class ImageController extends Controller
     {
         return view('imageUpload');
     }
+
+    public function store(Request $request)
+    {
+        
+    }
 }
